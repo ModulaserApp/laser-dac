@@ -1,5 +1,14 @@
 # Laser DAC
 
+## Maintenance status: legacy / unmaintained
+
+This Node.js/TypeScript project is no longer actively maintained.
+
+For new Rust projects, use [ModulaserApp/laser-dac-rs](https://github.com/ModulaserApp/laser-dac-rs).
+For new C++ projects, consider [sebleedelisle/libera-laser](https://github.com/sebleedelisle/libera-laser).
+
+The existing `@laser-dac/*` npm packages remain available, but should be treated as legacy.
+
 [![CircleCI branch](https://img.shields.io/circleci/project/github/Volst/laser-dac/master.svg)](https://circleci.com/gh/Volst/laser-dac)
 
 This is a collection of tools that contain everything you need to get started with programming on a laser DAC like the [Ether Dream](https://ether-dream.com/) or [Helios](http://pages.bitlasers.com/helios/), with support for more DACs coming. We also have a good laser simulator so you can develop without looking to the intense lights of a laser.
