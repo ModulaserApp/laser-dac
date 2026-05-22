@@ -1,5 +1,10 @@
 {
   "private": true,
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x"
+  },
   "workspaces": [
     "packages/*",
     "examples"
@@ -11,6 +16,10 @@
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
     "typescript": "^4.3.4"
+  },
+  "resolutions": {
+    "node-gyp": "10.2.0",
+    "node-gyp/**/isexe": "3.1.1"
   },
   "scripts": {
     "publish": "lerna publish",
